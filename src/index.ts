@@ -1,9 +1,9 @@
 import {
   server as WebSocketServer,
   request as WSRequest,
-  connection as WSConnection,
-  Message
+  connection as WSConnection
 } from "websocket";
+import type { Message } from "websocket";
 import http from "http";
 
 // 1. Create the HTTP server
