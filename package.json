@@ -1,16 +1,22 @@
 {
   "dependencies": {
-    "typescript": "^6.0.2"
+    "save": "^2.9.0",
+    "typescript": "^6.0.2",
+    "websocket": "^1.0.35",
+    "ws": "^8.20.0"
   },
   "name": "real-time-chat",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/websocket": "^1.0.10"
+  }
 }
